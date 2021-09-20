@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div>
+        <h1>Registro</h1>
+        <div >
+            <label for="">Cedula:</label>
+            <input type="text" name=""id="cedula" required></input/>
+        </div>
+        <div>
+            <label for="">Nombre:</label>
+            <input type="text" name=""id="nombre" required></input/>
+        </div>
+        <div>
+            <label>Año de nacimiento:</label>
+            <input type="text" name="" id="fecha"required><br>
+        </div>
+        <button type="button" onClick="control()">Tocame</button>
+        <p id="warning"></p>
+        <div>
+            <label for="">Elige una foto:</label>
+            <select id="opcionFoto" name="">
+              <option value="Foto1">Foto1</option>
+              <option value="Foto2">Foto2</option>
+              <option value="Foto3">Foto3</option>
+            </select>
+            <img src="./foto1.jpg" id="imagen"/>
+        </div>
+        <button type="button" onClick="funcionCambiar()">Tocame 2</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
